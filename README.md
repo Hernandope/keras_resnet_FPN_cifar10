@@ -7,6 +7,9 @@ Main objective of creating this project is to compare FPN performance with diffe
 Main code can be found in my jupyter notebook trained and ran.
 Please check `new_model.py`for how the model is defined.
 
+## Detection head
+All the output layers from FPN is flattened and concatenated so there's only 1 output. This is done so that it can be connected to a final Dense layer(s) for cifar10 predictions. You may wish to remove this head for your purposes.
+
 ## Backbones compatibility
 Bottom-up pathway in my implementation is compatible with:
 *ResNet50 
