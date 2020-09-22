@@ -12,17 +12,17 @@ All the output layers from FPN is flattened and concatenated so there's only 1 o
 
 ## Backbones compatibility
 Bottom-up pathway in my implementation is compatible with:
-*ResNet50 
-*ResNet101
-*ResNet50V2
-*ResNet101V2
+* ResNet50 
+* ResNet101
+* ResNet50V2
+* ResNet101V2
 
 Feel free to add compatibility with other backbones!
 Possible backbones to add:
-*Wide ResNet
-*ResNeSt
-*ResNeXt
-*Models with Res2Net
+* Wide ResNet
+* ResNeSt
+* ResNeXt
+* Models with Res2Net
 
 ## References:
 Original FPN paper: https://arxiv.org/abs/1612.03144
